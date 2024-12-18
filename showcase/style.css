@@ -141,7 +141,7 @@ html {
 }
 
 .logo {
-    background-image: url("../_shared/assets/logo_light_512.png");
+    /*background-image: url("../_shared/assets/logo_light_512.png");*/
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
