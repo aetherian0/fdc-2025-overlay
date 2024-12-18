@@ -488,7 +488,7 @@ html {
     right: 0;
     height: calc(100% - 2px);
     width: 800px;
-    background-color: var(--light);
+    background-color: var(--white);
     border-top: 2px solid var(--accent);
     border-left: 2px solid var(--accent);
     color: var(--light);
@@ -531,7 +531,7 @@ html {
 
 .chat-name {
     font-weight: 700;
-    color: #d6d6d6;
+    color: #111111;
 }
 
 .red > .chat-name {
