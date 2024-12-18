@@ -17,7 +17,7 @@ html {
     height: 1080px;
     display: flex;
     flex-direction: column;
-    /*background-image: url("../_shared/assets/bg_corner.png");*/
+    background-image: url("../_shared/assets/FDC 1920x1080 banner.png");
     overflow: hidden;
     z-index: 0;
 }
