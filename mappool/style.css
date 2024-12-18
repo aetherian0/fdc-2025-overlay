@@ -23,7 +23,7 @@ html {
     display: flex;
     flex-direction: column;
     /* background-image: url('../_shared/assets/temp_bg.png'); */
-    color: var(--light);
+    color: var(--white);
 }
 
 .header {
