@@ -17,7 +17,7 @@ html {
     height: 1080px;
     display: flex;
     flex-direction: column;
-    background-image: url("../_shared/assets/bg_corner.png");
+    /*background-image: url("../_shared/assets/bg_corner.png");*/
     overflow: hidden;
     z-index: 0;
 }
@@ -192,18 +192,18 @@ html {
     background-repeat: no-repeat;
 }
 
-.sponsor-logo.wooting {
+/*.sponsor-logo.wooting {
     background-image: url("../_shared/assets/logo-wooting.png");
-}
+}*/
 
-.sponsor-logo.bluebunny {
+/*.sponsor-logo.bluebunny {
     background-image: url("../_shared/assets/logo-bluebunny.png");
-}
+}*/
 
 .logo {
     width: 230px;
     height: 120px;
-    background-image: url("../_shared/assets/logo_light_512.png");
+    /*background-image: url("../_shared/assets/logo_light_512.png");*/
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
