@@ -15,7 +15,7 @@ html {
     position: relative;
     width: var(--width);
     height: var(--height);
-    color: var(--light);
+    color: var(--white);
     font-family: "Din", Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@ html {
 
 .header-item__value {
     font-weight: bold;
-    color: var(--accent);
+    color: var(--white);
 }
 
 .now-playing {
@@ -65,7 +65,7 @@ html {
     width: 500px;
     height: 100%;
     position: relative;
-    background-color: var(--dark);
+    background-color: var(--white);
 }
 
 .map-background {
@@ -82,7 +82,7 @@ html {
     align-items: center;
     position: relative;
     overflow: hidden;
-    background-color: var(--dark);
+    background-color: var(--white);
 }
 
 .map-stats-background {
@@ -137,7 +137,7 @@ html {
     font-size: 1.6rem;
     line-height: 1.6rem;
     font-weight: bold;
-    color: var(--accent-text);
+    color: var(--white);
 }
 
 .logo {
