@@ -488,7 +488,7 @@ html {
     right: 0;
     height: calc(100% - 2px);
     width: 800px;
-    background-color: var(--dark);
+    background-color: var(--light);
     border-top: 2px solid var(--accent);
     border-left: 2px solid var(--accent);
     color: var(--light);
