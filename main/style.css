@@ -500,6 +500,7 @@ html {
     position: absolute;
     top: 0;
     right: 0;
+    color: var(--white);
     background-color: var(--accent);
     padding: 4px 24px;
     font-size: 1.2rem;
