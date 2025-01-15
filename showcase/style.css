@@ -65,7 +65,7 @@ html {
     width: 500px;
     height: 100%;
     position: relative;
-    background-color: var(--white);
+    background-color: var(--accent);
 }
 
 .map-background {
@@ -82,7 +82,7 @@ html {
     align-items: center;
     position: relative;
     overflow: hidden;
-    background-color: var(--white);
+    background-color: var(--accent);
 }
 
 .map-stats-background {
