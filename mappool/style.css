@@ -115,7 +115,7 @@ html {
     letter-spacing: 1px;
     font-weight: 700;
     background-color: var(--border-banned);
-    color: var(--light);
+    color: var(--mappool-text);
     transition: border-color 300ms ease, background-color 300ms ease;
 }
 
