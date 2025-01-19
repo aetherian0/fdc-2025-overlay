@@ -12,7 +12,6 @@ let comingup, teams, mappool;
             .sort((a, b) => a.time - b.time)
             .filter((e) => e.time > now - 3 * 60 * 1000);
         if (matches.length === 0) {
-            console.log("a");
             return;
         } else {
             concurrent_matches = matches.filter(
