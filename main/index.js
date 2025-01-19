@@ -321,12 +321,19 @@ socket.onmessage = async (event) => {
         let scores = [];
         for (let i = 0; i < TEAMSIZE * 2; i++) {
             let score = data.tourney.ipcClients[i]?.gameplay?.score || 0;
-            if (
-                data.tourney.ipcClients[i]?.gameplay?.mods?.str
-                    ?.toUpperCase()
-                    .includes("EZ")
-            )
-                score *= 1.75;
+            if (map?.mods?.includes("FM")) {
+                const mods =
+                    data.tourney.ipcClients[
+                        i
+                    ]?.gameplay?.mods?.str?.toUpperCase();
+                if (mods?.includes("HD") && mods?.includes("HR")) score *= 1.03;
+                else if (mods?.includes("HD") && mods?.includes("EZ"))
+                    score *= 1.85;
+                else if (mods?.includes("HR")) score *= 1.06;
+                else if (mods?.includes("HD")) score *= 1.0;
+                else if (mods?.includes("EZ")) score *= 1.75;
+                else score *= 0.75;
+            }
             scores.push({ id: i, score });
         }
 
