@@ -1,5 +1,5 @@
-# finnish duo cup stream overlay
-## forked from [shdewz's](https://github.com/shdewz) 4 digit world cup repository
+# finnish duo cup 2025 stream overlay
+### forked from [shdewz's](https://github.com/shdewz) 4 digit world cup repository
 
 This overlay is intended to be used with [tosu](https://github.com/KotRikD/tosu).
 
